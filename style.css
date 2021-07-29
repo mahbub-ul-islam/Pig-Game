@@ -72,3 +72,7 @@ main {
 .player--active .score {
     font-weight: 400;
 }
+
+.player--active .current {
+    opacity: 1;
+}
