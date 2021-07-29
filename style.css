@@ -76,3 +76,14 @@ main {
 .player--active .current {
     opacity: 1;
 }
+
+.current {
+    background-color: #c7365f;
+    opacity: 0.8;
+    border-radius: 9px;
+    color: #fff;
+    width: 65%;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.75s;
+}
