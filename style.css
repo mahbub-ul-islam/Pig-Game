@@ -128,3 +128,7 @@ main {
     display: inline-block;
     margin-right: 0.7rem;
 }
+
+.btn--new {
+    top: 4rem;
+}
