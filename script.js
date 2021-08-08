@@ -15,3 +15,6 @@ const msg1El = document.querySelector(".wining-msg--1");
 const btnDice = document.querySelector(".btn--roll");
 const btnNew = document.querySelector(".btn--new");
 const btnHold = document.querySelector(".btn--hold");
+
+// global variables
+let player, currentScore, totalScore;
