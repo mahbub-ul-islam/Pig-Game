@@ -94,6 +94,12 @@ const swapPlayer = function () {
 const winnerCheck = function () {
     // check for winner
     if (totalScore[player] >= 20) {
+        // setting winner background
+        diceEl.classList.add("hidden");
+        const playerWinner = document.querySelector(`.player--${player}`);
+        playerWinner.classList.remove("player--active");
+        playerWinner.classList.add("player--winner");
+
         return true;
     } else {
         return false;
