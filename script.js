@@ -83,4 +83,9 @@ const swapPlayer = function () {
     // getting the current player and remove active state
     let currentPlayer = document.querySelector(`.player--${player}`);
     currentPlayer.classList.remove("player--active");
+
+    // changing the current Player and add active state
+    player = player === 0 ? 1 : 0;
+    currentPlayer = document.querySelector(`.player--${player}`);
+    currentPlayer.classList.add("player--active");
 };
