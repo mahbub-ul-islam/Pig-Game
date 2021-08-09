@@ -79,4 +79,8 @@ const swapPlayer = function () {
     // reset current score
     currentScore = 0;
     currentScoreBoard();
+
+    // getting the current player and remove active state
+    let currentPlayer = document.querySelector(`.player--${player}`);
+    currentPlayer.classList.remove("player--active");
 };
