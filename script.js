@@ -58,3 +58,10 @@ const diceRoll = function () {
     // return dice value
     return diceGenerator;
 };
+
+// current score
+const currentScoreBoard = function () {
+    // show current scoreboard
+    const currentPlayerScoreEL = document.getElementById(`current--${player}`);
+    currentPlayerScoreEL.textContent = currentScore;
+};
