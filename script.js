@@ -31,4 +31,13 @@ const startPosition = function () {
     score1El.textContent = 0;
     currentScore0El.textContent = 0;
     currentScore1El.textContent = 0;
+
+    diceEl.classList.add("hidden");
+    msg0El.classList.add("hidden");
+    msg1El.classList.add("hidden");
+
+    player0El.classList.add("player--active");
+    player0El.classList.remove("player--winner");
+    player1El.classList.remove("player--active");
+    player1El.classList.remove("player--winner");
 };
