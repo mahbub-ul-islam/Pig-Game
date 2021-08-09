@@ -40,4 +40,8 @@ const startPosition = function () {
     player0El.classList.remove("player--winner");
     player1El.classList.remove("player--active");
     player1El.classList.remove("player--winner");
+
+    // reset buttons
+    document.querySelector(".btn--roll").disabled = false;
+    document.querySelector(".btn--hold").disabled = false;
 };
