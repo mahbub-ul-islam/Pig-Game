@@ -73,3 +73,10 @@ const finalScoreBoard = function () {
     const currentPlayerTotalScore = document.getElementById(`score--${player}`);
     currentPlayerTotalScore.textContent = totalScore[player];
 };
+
+// swap player
+const swapPlayer = function () {
+    // reset current score
+    currentScore = 0;
+    currentScoreBoard();
+};
