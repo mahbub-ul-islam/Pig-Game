@@ -45,3 +45,12 @@ const startPosition = function () {
     document.querySelector(".btn--roll").disabled = false;
     document.querySelector(".btn--hold").disabled = false;
 };
+
+// dice generator
+const diceRoll = function () {
+    // generate value for dice
+    const diceGenerator = Math.trunc(Math.random() * 6) + 1;
+
+    // return dice value
+    return diceGenerator;
+};
