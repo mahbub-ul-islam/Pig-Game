@@ -100,6 +100,10 @@ const winnerCheck = function () {
         playerWinner.classList.remove("player--active");
         playerWinner.classList.add("player--winner");
 
+        // playerWinner.textContent += "Wins the game.";
+        const winingMsg = document.querySelector(`.wining-msg--${player}`);
+        winingMsg.classList.remove("hidden");
+
         return true;
     } else {
         return false;
