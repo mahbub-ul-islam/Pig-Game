@@ -25,4 +25,10 @@ const startPosition = function () {
     player = 0;
     currentScore = 0;
     totalScore = [0, 0];
+
+    // reset html dom
+    score0El.textContent = 0;
+    score1El.textContent = 0;
+    currentScore0El.textContent = 0;
+    currentScore1El.textContent = 0;
 };
