@@ -18,3 +18,11 @@ const btnHold = document.querySelector(".btn--hold");
 
 // global variables
 let player, currentScore, totalScore;
+
+// initial position
+const startPosition = function () {
+    // reset values
+    player = 0;
+    currentScore = 0;
+    totalScore = [0, 0];
+};
