@@ -89,3 +89,13 @@ const swapPlayer = function () {
     currentPlayer = document.querySelector(`.player--${player}`);
     currentPlayer.classList.add("player--active");
 };
+
+// check for winner
+const winnerCheck = function () {
+    // check for winner
+    if (totalScore[player] >= 20) {
+        return true;
+    } else {
+        return false;
+    }
+};
