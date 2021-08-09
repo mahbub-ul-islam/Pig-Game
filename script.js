@@ -65,3 +65,11 @@ const currentScoreBoard = function () {
     const currentPlayerScoreEL = document.getElementById(`current--${player}`);
     currentPlayerScoreEL.textContent = currentScore;
 };
+
+// total score
+const finalScoreBoard = function () {
+    // show total scoreboard
+    totalScore[player] += currentScore;
+    const currentPlayerTotalScore = document.getElementById(`score--${player}`);
+    currentPlayerTotalScore.textContent = totalScore[player];
+};
