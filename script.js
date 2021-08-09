@@ -104,6 +104,10 @@ const winnerCheck = function () {
         const winingMsg = document.querySelector(`.wining-msg--${player}`);
         winingMsg.classList.remove("hidden");
 
+        // btn disable
+        document.querySelector(".btn--roll").disabled = true;
+        document.querySelector(".btn--hold").disabled = true;
+
         return true;
     } else {
         return false;
