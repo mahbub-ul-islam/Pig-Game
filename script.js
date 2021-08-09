@@ -51,6 +51,10 @@ const diceRoll = function () {
     // generate value for dice
     const diceGenerator = Math.trunc(Math.random() * 6) + 1;
 
+    // show dice
+    diceEl.src = `dice-${diceGenerator}.png`;
+    diceEl.classList.remove("hidden");
+
     // return dice value
     return diceGenerator;
 };
