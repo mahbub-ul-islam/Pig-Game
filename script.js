@@ -138,3 +138,8 @@ btnHold.addEventListener("click", function () {
         swapPlayer();
     }
 });
+
+// new game button
+btnNew.addEventListener("click", function () {
+    startPosition();
+});
