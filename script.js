@@ -143,3 +143,6 @@ btnHold.addEventListener("click", function () {
 btnNew.addEventListener("click", function () {
     startPosition();
 });
+
+// initialize the game at first
+startPosition();
