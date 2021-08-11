@@ -128,3 +128,8 @@ btnDice.addEventListener("click", function () {
         swapPlayer();
     }
 });
+
+// hold button
+btnHold.addEventListener("click", function () {
+    finalScoreBoard();
+});
