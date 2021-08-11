@@ -118,4 +118,13 @@ const winnerCheck = function () {
 // roll dice button
 btnDice.addEventListener("click", function () {
     const diceScore = diceRoll();
+
+    // check if dice is not 1
+    if (diceScore !== 1) {
+        currentScore += diceScore;
+        currentScoreBoard();
+    } else {
+        // currentScore = 0;
+        swapPlayer();
+    }
 });
