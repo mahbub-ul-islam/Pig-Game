@@ -132,4 +132,9 @@ btnDice.addEventListener("click", function () {
 // hold button
 btnHold.addEventListener("click", function () {
     finalScoreBoard();
+
+    // if there is no winner
+    if (!winnerCheck()) {
+        swapPlayer();
+    }
 });
