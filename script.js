@@ -113,3 +113,9 @@ const winnerCheck = function () {
         return false;
     }
 };
+
+// buttons
+// roll dice button
+btnDice.addEventListener("click", function () {
+    const diceScore = diceRoll();
+});
