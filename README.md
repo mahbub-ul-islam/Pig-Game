@@ -1,2 +1,2 @@
-# Puig Game
+# Pig Game
  A JavaScript Application
